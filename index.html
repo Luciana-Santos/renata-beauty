@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header container">
     <div>
       <a href="/" class="logo">
         <span class="logo-display">Renata</span>
@@ -35,21 +35,69 @@
     <i class="fa-solid fa-bars menu-btn" id="menu"></i>
   </header>
 
-  <section class="hero">
+  <section class="hero container">
     <h1>Cuidado pensado para valorizar sua beleza natural.</h1>
 
     <p> Um espaço calmo e acolhedor para você se cuidar com carinho e atenção aos detalhes.</p>
 
     <div class="hero-action">
       <div class="hero-action_btn">
-        <button class="btn btn-cta">Agendar pelo Whatsapp</button>
+        <a href="#" class="btn btn-cta">Agendar pelo Whatsapp</a>
         <a href="#services" class="btn btn-secondary">Ver serviços</a>
       </div>
       <p>Resposta rápida pelo WhatsApp</p>
     </div>
   </section>
 
-  <section id="services"></section>
+  <section id="services" class="container services">
+    <h2>Serviços</h2>
+
+    <div class="services-items">
+      <article class="services-item">
+        <div class="services-item_img">
+          <img src="imgs/sobrancelha.jpg" alt="Imagem de sobrancelha">
+        </div>
+
+        <div class="services-item_info">
+          <h4>Design de sobrancelhas</h4>
+          <span></span>
+          <p>Desenho personalizado para valorizar o formato natural do seu rosto.</p>
+        </div>
+      </article>
+
+      <article class="services-item">
+        <div class="services-item_img">
+          <img src="imgs/cilios.jpg" alt="Imagem de cílios">
+        </div>
+
+        <div class="services-item_info">
+          <h4>Extensão de cílios</h4>
+          <span></span>
+          <p>Cílios mais longos e marcantes, com efeito elegante e natural.</p>
+        </div>
+      </article>
+
+      <article class="services-item hair">
+        <div class="services-item_img">
+          <img src="imgs/cabelo.jpg" alt="Imagem de cabelo">
+        </div>
+
+        <div class="services-item_info">
+          <h4>Escova e finalização</h4>
+          <span></span>
+          <p>Cabelo alinhado, com movimento e acabamento leve para o dia a dia ou ocasiões especiais.</p>
+        </div>
+      </article>
+
+      <article class="services-item info-cta">
+        <div class="info-cta_item">
+          <h3>Seu momento de cuidado começa aqui</h3>
+          <p>Entre em contato e escolha o melhor horário para você.</p>
+          <a href="#" class="btn btn-cta">Agendar pelo WhatsApp</a>
+        </div>
+      </article>
+    </div>
+  </section>
 
   <script src="https://kit.fontawesome.com/fe24e96b45.js" crossorigin="anonymous"></script>
   <script src="script.js"></script>
