@@ -204,6 +204,10 @@ ul {
     display: grid;
   }
 
+  .services-item:nth-child(4) {
+    grid-template-rows: repeat(1, 330px);
+  }
+
   .services-item_img {
     order: 2;
     overflow: hidden;
